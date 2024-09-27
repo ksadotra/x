@@ -11,12 +11,13 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
         .container{
             background-color: black;
             width: 100vw;
-            height: 47vw;
+            height: 49vw;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
@@ -24,13 +25,14 @@
         .img{
             height: 25vw;
             width: 46vw;
-            margin: 30px;
+            margin: 20px;
 
         }
         .login{
 
             font-family:"Noto Sans", sans-serif ;
             color: aliceblue;
+            position:absolute;
         }
         .a1{
             font-weight: 500;
@@ -46,7 +48,7 @@
         .container2{
             display: flex;
             justify-content: center;
-            align-items:flex-start;
+            align-items:center;
             flex-direction: column;
         }
         .b1{
@@ -61,6 +63,13 @@
             align-items: center;
 
         }
+        .b2{
+            background-color: blue;
+            color: aliceblue;
+            font-weight: 700;
+
+
+        }
         .i1{
             height: 32px;
             width: 34px;
@@ -69,7 +78,14 @@
 
         }
         .p1{
-            
+            /* display: flex;
+            align-self: center; */
+            /* position: relative;
+            left: -40px; */
+            /* width: 60vw; */
+        }
+        .p2{
+            width: 20vw;
         }
     </style>
 </head>
@@ -91,7 +107,21 @@
                     <img src="https://yt3.googleusercontent.com/05lhMeAH6tZrPIUsp2yHNz3DwzhKbDUQcxcY0_qeXVyZttR_pktBzw0FcLUSR6D4fVqsEgL3ZO0=s900-c-k-c0x00ffffff-no-rj" alt="" class="i1">
                     Sign up with Apple
                 </button>
+                <div>
                 <p class="p1">or</p>
+                <button class=" b1 b2">
+                    Create Account
+                    
+
+                </button>
+                <p class="p2">By signing up, you agree to <a href="">Terms and services</a> and <a href="">Privacy Policy</a>
+                including <a href="">cookie use</a></p><br><br>
+                <h2>Already have account?
+                    <button class="b1">
+                        Sign Up
+                    </button>
+                </h2>
+                </div>
 
                 
                 </div>
